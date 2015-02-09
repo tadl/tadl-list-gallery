@@ -7,6 +7,8 @@
     Description: A plugin for displaying item lists on our website using a shortcode.
  */
 
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+
 if (!class_exists("TADLListGallery")) {
     class TADLListGallery {
         function TADLListGallery() { //constructor
